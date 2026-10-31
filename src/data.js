@@ -406,11 +406,11 @@ export const EDUCATION = [
 
 export const TEST_SCORES = [
   {
-    exam: "SAT SUPERSCORE",
+    exam: "SAT",
     date: "2026",
     breakdown: [
       // TODO: section scores not in resume
-      { label: "Total", value: "1510/1600" },
+      { label: "Total Superscore", value: "1510/1600" },
     ],
   },
   {
