@@ -12,7 +12,7 @@ export const PROFILE = {
   email: "",
   phone: "",
   bio: [
-    "I'm a CBSE Grade 12 student at Narayana E-Techno School, Kalyan, graduating in 2027, with Computer Science as my intended field of study. I scored 98.5% in Grade 10 and 1510/1600 (Superscore) on the SAT.",
+    "I'm a CBSE Grade 12 student at Narayana E-Techno School, Kalyan, graduating in 2027, with Computer Science as my intended field of study. I scored 98.5% in Grade 10 and 1510/1600 (Superscore) in the SAT.",
     "My interest in Computer Science became practical during my Software Engineering internship at ITCG Solutions, where I designed and built a web-based Travel Expense Management Tool. Working with Python, Java and React-based tools, setting up database structure and backend logic, and chasing down bugs in date formatting and input validation showed me what it takes to turn an idea into software people can actually rely on.",
     "Outside of technology, I've spent much of my school life debating, chairing Model UN committees, acting and writing — from being named National Best Speaker at the Frank Anthony Memorial All India Debate to publishing a historical allegory. I've also volunteered with TINSA Ecological Foundation and Manav Kalyan Trust, and served as House Captain at Bombay Scottish School, Powai.",
   ],
@@ -135,7 +135,7 @@ export const AWARDS = [
     icon: "📝",
     title: "SAT — 1510/1600",
     meta: "College Board · 2026",
-    detail: "Scored 1510 (Superscore) out of 1600 on the SAT.",
+    detail: "Scored 1510 (Superscore) out of 1600 in the SAT.",
     link: "",
     featured: true,
   },
@@ -406,11 +406,11 @@ export const EDUCATION = [
 
 export const TEST_SCORES = [
   {
-    exam: "SAT",
+    exam: "SAT Superscore",
     date: "2026",
     breakdown: [
       // TODO: section scores not in resume
-      { label: "Total Superscore", value: "1510/1600" },
+      { label: "Total", value: "1510/1600" },
     ],
   },
   {
